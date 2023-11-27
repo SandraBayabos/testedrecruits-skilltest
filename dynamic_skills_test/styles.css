@@ -12,14 +12,14 @@ html {
 }
 
 #navbar {
-    height: 50px;
-    padding: 10px 100px 10px 100px;
-    display: flex;
-    justify-content: space-between;
+  height: 50px;
+  padding: 10px 100px 10px 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #navbar #logo {
-    width: 50%;
+  width: 50%;
 }
 
 #navbar #logo img {
@@ -27,17 +27,17 @@ html {
   border-radius: 50%;
 }
 
-#navbar #links {
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-style: italic;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 0.75em;
+#navbar .links {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 0.75em;
 }
 
 #hero {
@@ -73,4 +73,62 @@ html {
   background: linear-gradient(to bottom, #414f6b, #4d4d4d);
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+#history-nav {
+  height: 50px;
+  padding: 10px 100px 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+#history-nav #logo {
+  display: flex;
+}
+
+#history-nav #logo img {
+  max-height: 40px;
+  border-radius: 50%;
+  display: inline;
+  border: 1px solid #414f6b;
+}
+
+#history-nav-text {
+  margin-left: 10px;
+}
+
+#history-nav-text > div {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 115px;
+  color: transparent;
+  background: linear-gradient(to bottom, #414f6b, #4d4d4d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 20px;
+}
+
+#history-nav .links {
+  color: #414f6b;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 0.75em;
+}
+
+#history {
+  background: url("/dynamic_skills_test/assets/bg-history.jpeg") no-repeat;
+  background-size: 150%;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
 }

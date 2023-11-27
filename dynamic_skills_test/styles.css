@@ -1,0 +1,76 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+}
+
+.section {
+  height: 100vh;
+  width: 100vw;
+}
+
+#navbar {
+    height: 50px;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar #logo {
+    width: 50%;
+}
+
+#navbar #logo img {
+  max-height: 40px;
+  border-radius: 50%;
+}
+
+#navbar #links {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+}
+
+#hero {
+  background: url("/dynamic_skills_test/assets/bg-hero.png") no-repeat;
+  background-size: 150%;
+  background-position: center top;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero-text {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#hero-text :first-child {
+  color: #4d4d4d;
+}
+
+#hero-text div {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: justify;
+  text-transform: uppercase;
+  font-size: 115px;
+  color: transparent;
+  background: linear-gradient(to bottom, #414f6b, #4d4d4d);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
